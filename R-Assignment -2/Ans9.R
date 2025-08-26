@@ -1,0 +1,8 @@
+a<-matrix(c(2,0,0,0,0,3,0,0,0,0,5,0,0,0,0,-1),nrow=4,byrow = TRUE)
+print(a)
+a_inv<-solve(a)
+print(a_inv)
+i_4<-diag(4)
+print(i_4)
+result_9<- (a_inv)%*%(a)-(i_4)
+print(result_9)

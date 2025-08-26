@@ -1,0 +1,5 @@
+vector1<-c(3,5,7)
+vector2<-c(2,3)
+result<-rep(vector2*vector1,each=length(vector1))
+result[2:5]<-rep(c(-1,-150),time=2)
+print(result)
